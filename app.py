@@ -70,9 +70,9 @@ a,b,c,d,e=st.columns(5)
 img_size = 150
 
 with a:
-    st.image("img/prabhas.jpg",caption="Prabhas")
+    st.image("img/rtik.jpg",caption="Hrithik roshan")   
 with b:
-    st.image("img/rtik.jpg",caption="Hrithik roshan")
+     st.image("img/prabhas.jpg",caption="Prabhas")
 with c:
     st.image("img/mesi.jpg",caption="Leo messi")
 with d:
@@ -123,4 +123,23 @@ if uploaded_file is not None:
 
             for i, prob in enumerate(probabilities):
                 st.write(f"{reverse_dict.get(i)}   :{np.round(prob*100,2)}%")
-            
+# Footer
+st.markdown("""
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+    <div class="footer">
+        Developed by Hardik Chudasama 🚀
+    </div>
+""", unsafe_allow_html=True)
+
