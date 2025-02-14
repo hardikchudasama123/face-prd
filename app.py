@@ -63,7 +63,7 @@ def w2d(img, mode='db1', level=5):
 
 
 st.title("Celebrity Face Recognition")
-st.subheader("Upload the photo to the below mentioned persons")
+st.subheader("Upload an image to identify the person from the list below")
 
 
 a,b,c,d,e=st.columns(5)
