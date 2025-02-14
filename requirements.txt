@@ -1,7 +1,7 @@
 streamlit
 numpy
-opencv-python
-pywavelets
-joblib
+opencv-python-headless
 pillow
 scikit-learn
+pywavelets
+joblib
